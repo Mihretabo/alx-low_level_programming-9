@@ -1,24 +1,21 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - prints _putchar to the new line.
  *
- * Description: Prints putchar with _putchar
- *
- * Return: always 0
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	int i = 0;
-	char c;
-	char s[] = "_putchar\n";
+char letter[] = "_putchar";
+int i;
 
-	while (i <= 9)
-	{
-		c = s[i];
-		_putchar(c);
-		i++;
-	}
-	return (0);
+for (i = 0; i < 9; i++)
+{
+_putchar(letter[i]);
+}
+
+_putchar('\n');
+
+return (0);
 }
