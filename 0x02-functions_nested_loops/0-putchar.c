@@ -1,21 +1,17 @@
 #include "main.h"
 
 /**
- * main - prints _putchar to the new line.
- *
- * Return: Always 0.
+ * main - print _putchar
+ * Return: On success 0
  */
 int main(void)
 {
-char letter[] = "_putchar";
-int i;
+	int i;
+	char c[] = "_putchar\n";
 
-for (i = 0; i < 9; i++)
-{
-_putchar(letter[i]);
-}
-
-_putchar('\n');
-
-return (0);
+	for (i = 0; i < (int)sizeof(c); i++)
+	{
+		_putchar(*(c + i));
+	}
+	return (0);
 }
