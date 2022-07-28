@@ -17,4 +17,4 @@ Authors
 Kyanzi Hassan Musisi
 
 License
-ALX
+ALX AFRICA
